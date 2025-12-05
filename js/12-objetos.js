@@ -58,3 +58,16 @@ const pessoaB = {
 
 console.log(pessoaB.falar());
 console.log(`${pessoaB.falar()}, tenho ${pessoaB.idade} anos.`);
+
+// objetos aninhados
+
+const localidade = {
+  rua: "Rua logo ali",
+  cep: "083740234",
+  coordenadas: {
+    latitude: "-12.1230123",
+    longitude: "-12.1203871",
+  },
+};
+
+localidade.coordenadas.latitude;
